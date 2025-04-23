@@ -93,7 +93,7 @@ JOIN dept_emp de on employees.emp_no = de.emp_no
 JOIN departments d ON de.dept_no = d.dept_no
 WHERE d.dept_name IN ('Sales', 'Development');
 
-SELECT last_name, COUNT(*) AS frequency
+SELECT last_name, COUNT(last_name) AS frequency
 FROM employees
 GROUP BY last_name
 ORDER BY frequency DESC;
