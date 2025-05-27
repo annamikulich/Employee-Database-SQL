@@ -1,4 +1,4 @@
-# SQL-CHALLENGE
+
 
 *Overview
 This project is a relational database schema designed to organize employee information for a fictional company's HR system. It includes employee details, job titles, salaries, department assignments, and managerial roles.
